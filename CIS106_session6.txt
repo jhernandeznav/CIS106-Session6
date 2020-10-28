@@ -1,1 +1,68 @@
-InputProcessingOutputquantityFun_unit_price(quantity)If quantity > 1000 Unit_price = 8.00Elseif quantity >= 500 Unit_price = 10.00Else Unit_price = 12.00Return unit_priceQuantityUnit_priceE_priceE_price = unit_price x quantityDisplay quantity, unit_price, e_price------------------------------------------------------------------------------------------------------------------------------------------Activity 3InputProcessingOutputjob_codeFun_bonus(job_code, years_service)If job_code == ÒAÓ and years_service > 10 Bonus = 10000.00Elseif job_code == ÓAÓ and years_service >= 5 Bonus = 8000.00Elseif job_code == ÒBÓ and years_service > 15 Bonus = 9000.00Else Bonus = 5000Return bonus bonusyears_serviceLast_nameÒEnter last name:ÓDisplay last_name, bonusActivity 4Input Process Output yearsFun_rate(years)If years == 5 or years == 10 Interest_rate = 2Elseif years >= 1 and years <= 3 Interest_rate = 1Else Interest_rate = 5Return interest_rate YearsInterest_rateDisplay years, interest_rate
+activity 2
+Input quantity
+Processing
+Fun_unit_price(quantity)
+If quantity > 1000
+ Unit_price = 8.00
+Elseif quantity >= 500
+ Unit_price = 10.00
+Else
+ Unit_price = 12.00
+Return unit_price
+output
+Quantity
+Unit_price
+E_price
+processing
+E_price = unit_price x quantity
+Display quantity, unit_price, e_price
+------------------------------------------------------------------------------------------
+Activity 3
+input 
+job_code
+years_service
+last_name
+
+processing
+Fun_bonus(job_code, years_service)
+
+If job_code == "A" and years_service > 10
+ Bonus = 10000.00
+Elseif job_code == "A" and years_service >= 5
+ Bonus = 8000.00
+Elseif job_code == "B" and years_service > 15
+ Bonus = 9000.00
+Else
+ Bonus = 5000
+Return bonus 
+
+
+"Enter last name:"
+
+
+Display last_name, bonus
+
+output bonus
+
+
+Activity 4
+input
+years
+
+processing
+Fun_rate(years)
+
+If years == 5 or years == 10
+ Interest_rate = 2
+Elseif years >= 1 and years <= 3
+ Interest_rate = 1
+Else
+ Interest_rate = 5
+Return interest_rate
+ 
+Display years, interest_rate
+
+output
+Years
+Interest_rate
+
